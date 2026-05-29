@@ -8,12 +8,14 @@ import pages.LoginPage;
 import pages.PropertySearchPage;
 import utils.ConfigReader;
 import utils.DriverManager;
-import utils.ReportManager;
+
 
 /**
  * TC05 – Search by Post Code
  * Verifies that searching by post code returns at least one result with a non-empty address cell.
  * Satisfies requirement R7.
+ *
+ * @author Maribel Aiza
  */
 public class TC05_SearchByPostCodeTest extends BaseTest {
 
@@ -36,7 +38,7 @@ public class TC05_SearchByPostCodeTest extends BaseTest {
         Assert.assertTrue(
                 searchPage.getResultCount() >= 1,
                 "Expected at least 1 result for post code search but found: " + searchPage.getResultCount());
-        ReportManager.logPass("Post code search returned " + searchPage.getResultCount() + " result(s)");
+        System.out.println("[PASS] " + "Post code search returned " + searchPage.getResultCount() + " result(s)");
 
         for (WebElement row : searchPage.getResultRows()) {
             String addressCell = searchPage.getAddressCellText(row);
@@ -44,7 +46,7 @@ public class TC05_SearchByPostCodeTest extends BaseTest {
                     addressCell.isEmpty(),
                     "Address cell text should not be empty in a result row");
         }
-        ReportManager.logPass("All result rows have a non-empty address cell");
+        System.out.println("[PASS] " + "All result rows have a non-empty address cell");
     }
 
     // -------------------------------------------------------------------------

@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="43" passed="43" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-29T11:58:43 BOT" name="MunsterJoinery-Suite" finished-at="2026-05-29T12:17:13 BOT" duration-ms="1109897">
+    <groups>
+    </groups>
+    <test started-at="2026-05-29T11:58:43 BOT" name="MunsterJoinery-Tests" finished-at="2026-05-29T12:17:13 BOT" duration-ms="1109897">
+      <class name="tests.TC05_SearchByPostCodeTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC05_SearchByPostCodeTest@5677323c]" started-at="2026-05-29T12:00:12 BOT" name="setUp" finished-at="2026-05-29T12:00:32 BOT" duration-ms="19968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC05_SearchByPostCodeTest.tc05_searchByPostCode()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc05_searchByPostCode()[pri:0, instance:tests.TC05_SearchByPostCodeTest@5677323c]" started-at="2026-05-29T12:00:32 BOT" name="tc05_searchByPostCode" finished-at="2026-05-29T12:00:39 BOT" duration-ms="6834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05_searchByPostCode -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC05_SearchByPostCodeTest@5677323c]" started-at="2026-05-29T12:00:39 BOT" name="tearDown" finished-at="2026-05-29T12:00:40 BOT" duration-ms="566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc05_searchByPostCode status=SUCCESS method=TC05_SearchByPostCodeTest.tc05_searchByPostCode()[pri:0, instance:tests.TC05_SearchByPostCodeTest@5677323c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC05_SearchByPostCodeTest -->
+      <class name="tests.TC19_SessionPersistenceTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC19_SessionPersistenceTest@6340e5f0]" started-at="2026-05-29T12:06:12 BOT" name="setUp" finished-at="2026-05-29T12:06:49 BOT" duration-ms="37476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC19_SessionPersistenceTest.tc19_sessionPersistence()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc19_sessionPersistence()[pri:0, instance:tests.TC19_SessionPersistenceTest@6340e5f0]" started-at="2026-05-29T12:06:49 BOT" name="tc19_sessionPersistence" finished-at="2026-05-29T12:07:06 BOT" duration-ms="17306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc19_sessionPersistence -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC19_SessionPersistenceTest@6340e5f0]" started-at="2026-05-29T12:07:06 BOT" name="tearDown" finished-at="2026-05-29T12:07:07 BOT" duration-ms="652" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc19_sessionPersistence status=SUCCESS method=TC19_SessionPersistenceTest.tc19_sessionPersistence()[pri:0, instance:tests.TC19_SessionPersistenceTest@6340e5f0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC19_SessionPersistenceTest -->
+      <class name="tests.TC13_ClearFieldsTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC13_ClearFieldsTest@38cee291]" started-at="2026-05-29T12:03:27 BOT" name="setUp" finished-at="2026-05-29T12:03:41 BOT" duration-ms="13986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC13_ClearFieldsTest.tc13_clearFields()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc13_clearFields()[pri:0, instance:tests.TC13_ClearFieldsTest@38cee291]" started-at="2026-05-29T12:03:41 BOT" name="tc13_clearFields" finished-at="2026-05-29T12:03:48 BOT" duration-ms="7602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc13_clearFields -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC13_ClearFieldsTest@38cee291]" started-at="2026-05-29T12:03:48 BOT" name="tearDown" finished-at="2026-05-29T12:03:49 BOT" duration-ms="720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc13_clearFields status=SUCCESS method=TC13_ClearFieldsTest.tc13_clearFields()[pri:0, instance:tests.TC13_ClearFieldsTest@38cee291] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC13_ClearFieldsTest -->
+      <class name="tests.TC03_ForgottenAccountTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC03_ForgottenAccountTest@5824a83d]" started-at="2026-05-29T11:59:28 BOT" name="setUp" finished-at="2026-05-29T11:59:36 BOT" duration-ms="7163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC03_ForgottenAccountTest.tc03_forgottenAccount()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc03_forgottenAccount()[pri:0, instance:tests.TC03_ForgottenAccountTest@5824a83d]" started-at="2026-05-29T11:59:36 BOT" name="tc03_forgottenAccount" finished-at="2026-05-29T11:59:36 BOT" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_forgottenAccount -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC03_ForgottenAccountTest@5824a83d]" started-at="2026-05-29T11:59:36 BOT" name="tearDown" finished-at="2026-05-29T11:59:37 BOT" duration-ms="415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc03_forgottenAccount status=SUCCESS method=TC03_ForgottenAccountTest.tc03_forgottenAccount()[pri:0, instance:tests.TC03_ForgottenAccountTest@5824a83d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC03_ForgottenAccountTest -->
+      <class name="tests.TC06_SearchByFittingNoTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC06_SearchByFittingNoTest@18df8434]" started-at="2026-05-29T12:00:40 BOT" name="setUp" finished-at="2026-05-29T12:00:57 BOT" duration-ms="16942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC06_SearchByFittingNoTest.tc06_searchByFittingNo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc06_searchByFittingNo()[pri:0, instance:tests.TC06_SearchByFittingNoTest@18df8434]" started-at="2026-05-29T12:00:57 BOT" name="tc06_searchByFittingNo" finished-at="2026-05-29T12:01:01 BOT" duration-ms="4855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc06_searchByFittingNo -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC06_SearchByFittingNoTest@18df8434]" started-at="2026-05-29T12:01:01 BOT" name="tearDown" finished-at="2026-05-29T12:01:02 BOT" duration-ms="634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc06_searchByFittingNo status=SUCCESS method=TC06_SearchByFittingNoTest.tc06_searchByFittingNo()[pri:0, instance:tests.TC06_SearchByFittingNoTest@18df8434] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC06_SearchByFittingNoTest -->
+      <class name="tests.TC14_SearchByNameAndPostCodeTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC14_SearchByNameAndPostCodeTest@4b45a2f5]" started-at="2026-05-29T12:03:49 BOT" name="setUp" finished-at="2026-05-29T12:04:17 BOT" duration-ms="28246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC14_SearchByNameAndPostCodeTest.tc14_searchByNameAndPostCode()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc14_searchByNameAndPostCode()[pri:0, instance:tests.TC14_SearchByNameAndPostCodeTest@4b45a2f5]" started-at="2026-05-29T12:04:17 BOT" name="tc14_searchByNameAndPostCode" finished-at="2026-05-29T12:04:24 BOT" duration-ms="7231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc14_searchByNameAndPostCode -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC14_SearchByNameAndPostCodeTest@4b45a2f5]" started-at="2026-05-29T12:04:24 BOT" name="tearDown" finished-at="2026-05-29T12:04:25 BOT" duration-ms="712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc14_searchByNameAndPostCode status=SUCCESS method=TC14_SearchByNameAndPostCodeTest.tc14_searchByNameAndPostCode()[pri:0, instance:tests.TC14_SearchByNameAndPostCodeTest@4b45a2f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC14_SearchByNameAndPostCodeTest -->
+      <class name="tests.TC10_SearchByPhoneTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC10_SearchByPhoneTest@4686afc2]" started-at="2026-05-29T12:01:47 BOT" name="setUp" finished-at="2026-05-29T12:02:18 BOT" duration-ms="30083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC10_SearchByPhoneTest.tc10_searchByPhone()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc10_searchByPhone()[pri:0, instance:tests.TC10_SearchByPhoneTest@4686afc2]" started-at="2026-05-29T12:02:18 BOT" name="tc10_searchByPhone" finished-at="2026-05-29T12:02:25 BOT" duration-ms="7378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc10_searchByPhone -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC10_SearchByPhoneTest@4686afc2]" started-at="2026-05-29T12:02:25 BOT" name="tearDown" finished-at="2026-05-29T12:02:25 BOT" duration-ms="576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc10_searchByPhone status=SUCCESS method=TC10_SearchByPhoneTest.tc10_searchByPhone()[pri:0, instance:tests.TC10_SearchByPhoneTest@4686afc2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC10_SearchByPhoneTest -->
+      <class name="tests.TC02_LoginInvalidTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC02_LoginInvalidTest@7b36aa0c]" started-at="2026-05-29T11:59:13 BOT" name="setUp" finished-at="2026-05-29T11:59:25 BOT" duration-ms="12351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC02_LoginInvalidTest.tc02_loginInvalid()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc02_loginInvalid()[pri:0, instance:tests.TC02_LoginInvalidTest@7b36aa0c]" started-at="2026-05-29T11:59:25 BOT" name="tc02_loginInvalid" finished-at="2026-05-29T11:59:28 BOT" duration-ms="2363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_loginInvalid -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC02_LoginInvalidTest@7b36aa0c]" started-at="2026-05-29T11:59:28 BOT" name="tearDown" finished-at="2026-05-29T11:59:28 BOT" duration-ms="510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_loginInvalid status=SUCCESS method=TC02_LoginInvalidTest.tc02_loginInvalid()[pri:0, instance:tests.TC02_LoginInvalidTest@7b36aa0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC02_LoginInvalidTest -->
+      <class name="tests.TC04_SearchByNameTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC04_SearchByNameTest@537f60bf]" started-at="2026-05-29T11:59:37 BOT" name="setUp" finished-at="2026-05-29T12:00:07 BOT" duration-ms="30198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC04_SearchByNameTest.tc04_searchByName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc04_searchByName()[pri:0, instance:tests.TC04_SearchByNameTest@537f60bf]" started-at="2026-05-29T12:00:07 BOT" name="tc04_searchByName" finished-at="2026-05-29T12:00:12 BOT" duration-ms="4830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_searchByName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC04_SearchByNameTest@537f60bf]" started-at="2026-05-29T12:00:12 BOT" name="tearDown" finished-at="2026-05-29T12:00:12 BOT" duration-ms="468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc04_searchByName status=SUCCESS method=TC04_SearchByNameTest.tc04_searchByName()[pri:0, instance:tests.TC04_SearchByNameTest@537f60bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC04_SearchByNameTest -->
+      <class name="tests.TC01_LoginValidTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC01_LoginValidTest@26e356f0]" started-at="2026-05-29T11:58:43 BOT" name="setUp" finished-at="2026-05-29T11:58:48 BOT" duration-ms="4735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC01_LoginValidTest.tc01_loginValid()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc01_loginValid()[pri:0, instance:tests.TC01_LoginValidTest@26e356f0]" started-at="2026-05-29T11:58:48 BOT" name="tc01_loginValid" finished-at="2026-05-29T11:59:12 BOT" duration-ms="24438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_loginValid -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC01_LoginValidTest@26e356f0]" started-at="2026-05-29T11:59:12 BOT" name="tearDown" finished-at="2026-05-29T11:59:13 BOT" duration-ms="788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01_loginValid status=SUCCESS method=TC01_LoginValidTest.tc01_loginValid()[pri:0, instance:tests.TC01_LoginValidTest@26e356f0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC01_LoginValidTest -->
+      <class name="tests.TC15_SearchByMultipleFieldsTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC15_SearchByMultipleFieldsTest@f09733f]" started-at="2026-05-29T12:04:25 BOT" name="setUp" finished-at="2026-05-29T12:04:28 BOT" duration-ms="3157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC15_SearchByMultipleFieldsTest.tc15_searchByMultipleFields()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc15_searchByMultipleFields()[pri:0, instance:tests.TC15_SearchByMultipleFieldsTest@f09733f]" started-at="2026-05-29T12:04:28 BOT" name="tc15_searchByMultipleFields" finished-at="2026-05-29T12:04:39 BOT" duration-ms="10546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc15_searchByMultipleFields -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC15_SearchByMultipleFieldsTest@f09733f]" started-at="2026-05-29T12:04:39 BOT" name="tearDown" finished-at="2026-05-29T12:04:39 BOT" duration-ms="361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc15_searchByMultipleFields status=SUCCESS method=TC15_SearchByMultipleFieldsTest.tc15_searchByMultipleFields()[pri:0, instance:tests.TC15_SearchByMultipleFieldsTest@f09733f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC15_SearchByMultipleFieldsTest -->
+      <class name="tests.TC12_SearchByQuoteIdTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC12_SearchByQuoteIdTest@791f145a]" started-at="2026-05-29T12:03:02 BOT" name="setUp" finished-at="2026-05-29T12:03:19 BOT" duration-ms="16623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC12_SearchByQuoteIdTest.tc12_searchByQuoteId()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc12_searchByQuoteId()[pri:0, instance:tests.TC12_SearchByQuoteIdTest@791f145a]" started-at="2026-05-29T12:03:19 BOT" name="tc12_searchByQuoteId" finished-at="2026-05-29T12:03:26 BOT" duration-ms="7107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc12_searchByQuoteId -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC12_SearchByQuoteIdTest@791f145a]" started-at="2026-05-29T12:03:26 BOT" name="tearDown" finished-at="2026-05-29T12:03:27 BOT" duration-ms="524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc12_searchByQuoteId status=SUCCESS method=TC12_SearchByQuoteIdTest.tc12_searchByQuoteId()[pri:0, instance:tests.TC12_SearchByQuoteIdTest@791f145a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC12_SearchByQuoteIdTest -->
+      <class name="tests.TC09_SearchByBuilderAfterCareIdTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC09_SearchByBuilderAfterCareIdTest@229c6181]" started-at="2026-05-29T12:01:35 BOT" name="setUp" finished-at="2026-05-29T12:01:42 BOT" duration-ms="7247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC09_SearchByBuilderAfterCareIdTest.tc09_searchByBuilderAfterCareId()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc09_searchByBuilderAfterCareId()[pri:0, instance:tests.TC09_SearchByBuilderAfterCareIdTest@229c6181]" started-at="2026-05-29T12:01:42 BOT" name="tc09_searchByBuilderAfterCareId" finished-at="2026-05-29T12:01:47 BOT" duration-ms="4959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc09_searchByBuilderAfterCareId -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC09_SearchByBuilderAfterCareIdTest@229c6181]" started-at="2026-05-29T12:01:47 BOT" name="tearDown" finished-at="2026-05-29T12:01:47 BOT" duration-ms="499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc09_searchByBuilderAfterCareId status=SUCCESS method=TC09_SearchByBuilderAfterCareIdTest.tc09_searchByBuilderAfterCareId()[pri:0, instance:tests.TC09_SearchByBuilderAfterCareIdTest@229c6181] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC09_SearchByBuilderAfterCareIdTest -->
+      <class name="tests.TC20_FieldValidationTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:07:07 BOT" name="setUp" finished-at="2026-05-29T12:07:30 BOT" duration-ms="22656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC20_FieldValidationTest.tc20_01_nameRejectsSpecialChars()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc20_01_nameRejectsSpecialChars()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:07:30 BOT" name="tc20_01_nameRejectsSpecialChars" description="Name field: rejects special characters" finished-at="2026-05-29T12:07:36 BOT" duration-ms="6782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc20_01_nameRejectsSpecialChars -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:07:36 BOT" name="tearDown" finished-at="2026-05-29T12:07:39 BOT" duration-ms="2056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc20_01_nameRejectsSpecialChars status=SUCCESS method=TC20_FieldValidationTest.tc20_01_nameRejectsSpecialChars()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:07:39 BOT" name="setUp" finished-at="2026-05-29T12:08:06 BOT" duration-ms="27785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC20_FieldValidationTest.tc20_02_nameRejectsDigits()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc20_02_nameRejectsDigits()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:08:06 BOT" name="tc20_02_nameRejectsDigits" description="Name field: rejects digits" finished-at="2026-05-29T12:08:13 BOT" duration-ms="6883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc20_02_nameRejectsDigits -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:08:13 BOT" name="tearDown" finished-at="2026-05-29T12:08:14 BOT" duration-ms="411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc20_02_nameRejectsDigits status=SUCCESS method=TC20_FieldValidationTest.tc20_02_nameRejectsDigits()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:08:14 BOT" name="setUp" finished-at="2026-05-29T12:08:31 BOT" duration-ms="17278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC20_FieldValidationTest.tc20_03_nameMaxLength()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc20_03_nameMaxLength()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:08:31 BOT" name="tc20_03_nameMaxLength" description="Name field: max length 100 characters" finished-at="2026-05-29T12:08:38 BOT" duration-ms="6843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc20_03_nameMaxLength -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:08:38 BOT" name="tearDown" finished-at="2026-05-29T12:08:38 BOT" duration-ms="421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc20_03_nameMaxLength status=SUCCESS method=TC20_FieldValidationTest.tc20_03_nameMaxLength()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:08:38 BOT" name="setUp" finished-at="2026-05-29T12:08:53 BOT" duration-ms="15277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC20_FieldValidationTest.tc20_04_nameAcceptsEmpty()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc20_04_nameAcceptsEmpty()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:08:53 BOT" name="tc20_04_nameAcceptsEmpty" description="Name field: accepts empty/null (optional field)" finished-at="2026-05-29T12:08:58 BOT" duration-ms="4946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc20_04_nameAcceptsEmpty -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:08:58 BOT" name="tearDown" finished-at="2026-05-29T12:08:59 BOT" duration-ms="693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc20_04_nameAcceptsEmpty status=SUCCESS method=TC20_FieldValidationTest.tc20_04_nameAcceptsEmpty()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:08:59 BOT" name="setUp" finished-at="2026-05-29T12:09:06 BOT" duration-ms="7055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC20_FieldValidationTest.tc20_05_addressRejectsSpecialChars()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc20_05_addressRejectsSpecialChars()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:09:06 BOT" name="tc20_05_addressRejectsSpecialChars" description="Address field: rejects special characters" finished-at="2026-05-29T12:09:11 BOT" duration-ms="4579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc20_05_addressRejectsSpecialChars -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:09:11 BOT" name="tearDown" finished-at="2026-05-29T12:09:11 BOT" duration-ms="566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc20_05_addressRejectsSpecialChars status=SUCCESS method=TC20_FieldValidationTest.tc20_05_addressRejectsSpecialChars()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:09:11 BOT" name="setUp" finished-at="2026-05-29T12:09:33 BOT" duration-ms="21448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC20_FieldValidationTest.tc20_06_addressMaxLength()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc20_06_addressMaxLength()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:09:33 BOT" name="tc20_06_addressMaxLength" description="Address field: max length 100 characters" finished-at="2026-05-29T12:09:37 BOT" duration-ms="4758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc20_06_addressMaxLength -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:09:37 BOT" name="tearDown" finished-at="2026-05-29T12:09:38 BOT" duration-ms="532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc20_06_addressMaxLength status=SUCCESS method=TC20_FieldValidationTest.tc20_06_addressMaxLength()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:09:38 BOT" name="setUp" finished-at="2026-05-29T12:09:54 BOT" duration-ms="15705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC20_FieldValidationTest.tc20_07_addressAcceptsEmpty()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc20_07_addressAcceptsEmpty()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:09:54 BOT" name="tc20_07_addressAcceptsEmpty" description="Address field: accepts empty value" finished-at="2026-05-29T12:09:58 BOT" duration-ms="4612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc20_07_addressAcceptsEmpty -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:09:58 BOT" name="tearDown" finished-at="2026-05-29T12:09:59 BOT" duration-ms="476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc20_07_addressAcceptsEmpty status=SUCCESS method=TC20_FieldValidationTest.tc20_07_addressAcceptsEmpty()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:09:59 BOT" name="setUp" finished-at="2026-05-29T12:10:11 BOT" duration-ms="11942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC20_FieldValidationTest.tc20_08_fittingNoDigitsOnly()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc20_08_fittingNoDigitsOnly()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:10:11 BOT" name="tc20_08_fittingNoDigitsOnly" description="Fitting No field: accepts digits only" finished-at="2026-05-29T12:10:15 BOT" duration-ms="4452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc20_08_fittingNoDigitsOnly -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:10:15 BOT" name="tearDown" finished-at="2026-05-29T12:10:16 BOT" duration-ms="587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc20_08_fittingNoDigitsOnly status=SUCCESS method=TC20_FieldValidationTest.tc20_08_fittingNoDigitsOnly()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:10:16 BOT" name="setUp" finished-at="2026-05-29T12:10:34 BOT" duration-ms="18148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC20_FieldValidationTest.tc20_09_fittingNoRejectsLetters()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc20_09_fittingNoRejectsLetters()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:10:34 BOT" name="tc20_09_fittingNoRejectsLetters" description="Fitting No field: rejects letters" finished-at="2026-05-29T12:10:41 BOT" duration-ms="7015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc20_09_fittingNoRejectsLetters -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:10:41 BOT" name="tearDown" finished-at="2026-05-29T12:10:41 BOT" duration-ms="428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc20_09_fittingNoRejectsLetters status=SUCCESS method=TC20_FieldValidationTest.tc20_09_fittingNoRejectsLetters()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:10:41 BOT" name="setUp" finished-at="2026-05-29T12:11:01 BOT" duration-ms="19210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC20_FieldValidationTest.tc20_10_fittingNoAcceptsEmpty()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc20_10_fittingNoAcceptsEmpty()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:11:01 BOT" name="tc20_10_fittingNoAcceptsEmpty" description="Fitting No field: accepts empty value" finished-at="2026-05-29T12:11:07 BOT" duration-ms="6737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc20_10_fittingNoAcceptsEmpty -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:11:07 BOT" name="tearDown" finished-at="2026-05-29T12:11:08 BOT" duration-ms="403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc20_10_fittingNoAcceptsEmpty status=SUCCESS method=TC20_FieldValidationTest.tc20_10_fittingNoAcceptsEmpty()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:11:08 BOT" name="setUp" finished-at="2026-05-29T12:11:10 BOT" duration-ms="2121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC20_FieldValidationTest.tc20_11_orderNoAcceptsSpecialChars()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc20_11_orderNoAcceptsSpecialChars()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:11:10 BOT" name="tc20_11_orderNoAcceptsSpecialChars" description="Order No field: accepts special characters" finished-at="2026-05-29T12:11:35 BOT" duration-ms="24745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc20_11_orderNoAcceptsSpecialChars -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:11:35 BOT" name="tearDown" finished-at="2026-05-29T12:11:36 BOT" duration-ms="1120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc20_11_orderNoAcceptsSpecialChars status=SUCCESS method=TC20_FieldValidationTest.tc20_11_orderNoAcceptsSpecialChars()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:11:36 BOT" name="setUp" finished-at="2026-05-29T12:12:07 BOT" duration-ms="31769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC20_FieldValidationTest.tc20_12_orderNoAcceptsEmpty()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc20_12_orderNoAcceptsEmpty()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:12:07 BOT" name="tc20_12_orderNoAcceptsEmpty" description="Order No field: accepts empty value" finished-at="2026-05-29T12:12:14 BOT" duration-ms="6752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc20_12_orderNoAcceptsEmpty -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:12:14 BOT" name="tearDown" finished-at="2026-05-29T12:12:15 BOT" duration-ms="425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc20_12_orderNoAcceptsEmpty status=SUCCESS method=TC20_FieldValidationTest.tc20_12_orderNoAcceptsEmpty()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:12:15 BOT" name="setUp" finished-at="2026-05-29T12:12:43 BOT" duration-ms="28632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC20_FieldValidationTest.tc20_13_serviceNoDigitsOnly()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc20_13_serviceNoDigitsOnly()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:12:43 BOT" name="tc20_13_serviceNoDigitsOnly" description="Service No field: accepts digits only" finished-at="2026-05-29T12:12:50 BOT" duration-ms="6942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc20_13_serviceNoDigitsOnly -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:12:50 BOT" name="tearDown" finished-at="2026-05-29T12:12:51 BOT" duration-ms="611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc20_13_serviceNoDigitsOnly status=SUCCESS method=TC20_FieldValidationTest.tc20_13_serviceNoDigitsOnly()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:12:51 BOT" name="setUp" finished-at="2026-05-29T12:13:09 BOT" duration-ms="18003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC20_FieldValidationTest.tc20_14_serviceNoMaxLength()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc20_14_serviceNoMaxLength()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:13:09 BOT" name="tc20_14_serviceNoMaxLength" description="Service No field: max length 20 characters" finished-at="2026-05-29T12:13:16 BOT" duration-ms="6775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc20_14_serviceNoMaxLength -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:13:16 BOT" name="tearDown" finished-at="2026-05-29T12:13:16 BOT" duration-ms="406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc20_14_serviceNoMaxLength status=SUCCESS method=TC20_FieldValidationTest.tc20_14_serviceNoMaxLength()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:13:16 BOT" name="setUp" finished-at="2026-05-29T12:13:37 BOT" duration-ms="21346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC20_FieldValidationTest.tc20_15_builderIdAlphanumeric()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc20_15_builderIdAlphanumeric()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:13:37 BOT" name="tc20_15_builderIdAlphanumeric" description="Builder After Care Id: accepts alphanumeric" finished-at="2026-05-29T12:13:44 BOT" duration-ms="7050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc20_15_builderIdAlphanumeric -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:13:44 BOT" name="tearDown" finished-at="2026-05-29T12:13:45 BOT" duration-ms="393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc20_15_builderIdAlphanumeric status=SUCCESS method=TC20_FieldValidationTest.tc20_15_builderIdAlphanumeric()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:13:45 BOT" name="setUp" finished-at="2026-05-29T12:13:56 BOT" duration-ms="11578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC20_FieldValidationTest.tc20_16_builderIdAcceptsEmpty()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc20_16_builderIdAcceptsEmpty()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:13:56 BOT" name="tc20_16_builderIdAcceptsEmpty" description="Builder After Care Id: accepts empty value" finished-at="2026-05-29T12:14:03 BOT" duration-ms="6999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc20_16_builderIdAcceptsEmpty -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:14:03 BOT" name="tearDown" finished-at="2026-05-29T12:14:04 BOT" duration-ms="396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc20_16_builderIdAcceptsEmpty status=SUCCESS method=TC20_FieldValidationTest.tc20_16_builderIdAcceptsEmpty()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:14:04 BOT" name="setUp" finished-at="2026-05-29T12:14:13 BOT" duration-ms="9331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC20_FieldValidationTest.tc20_17_phoneAcceptsInternationalFormat()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc20_17_phoneAcceptsInternationalFormat()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:14:13 BOT" name="tc20_17_phoneAcceptsInternationalFormat" description="Phone field: accepts international format +353 871234567" finished-at="2026-05-29T12:14:21 BOT" duration-ms="7481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc20_17_phoneAcceptsInternationalFormat -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:14:21 BOT" name="tearDown" finished-at="2026-05-29T12:14:21 BOT" duration-ms="405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc20_17_phoneAcceptsInternationalFormat status=SUCCESS method=TC20_FieldValidationTest.tc20_17_phoneAcceptsInternationalFormat()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:14:21 BOT" name="setUp" finished-at="2026-05-29T12:14:38 BOT" duration-ms="16510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC20_FieldValidationTest.tc20_18_phoneAcceptsLocalDigits()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc20_18_phoneAcceptsLocalDigits()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:14:38 BOT" name="tc20_18_phoneAcceptsLocalDigits" description="Phone field: accepts local digits only" finished-at="2026-05-29T12:14:44 BOT" duration-ms="6592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc20_18_phoneAcceptsLocalDigits -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:14:44 BOT" name="tearDown" finished-at="2026-05-29T12:14:44 BOT" duration-ms="367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc20_18_phoneAcceptsLocalDigits status=SUCCESS method=TC20_FieldValidationTest.tc20_18_phoneAcceptsLocalDigits()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:14:44 BOT" name="setUp" finished-at="2026-05-29T12:14:59 BOT" duration-ms="14922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC20_FieldValidationTest.tc20_19_phoneAcceptsEmpty()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc20_19_phoneAcceptsEmpty()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:14:59 BOT" name="tc20_19_phoneAcceptsEmpty" description="Phone field: accepts empty value" finished-at="2026-05-29T12:15:06 BOT" duration-ms="6883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc20_19_phoneAcceptsEmpty -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:15:06 BOT" name="tearDown" finished-at="2026-05-29T12:15:08 BOT" duration-ms="1988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc20_19_phoneAcceptsEmpty status=SUCCESS method=TC20_FieldValidationTest.tc20_19_phoneAcceptsEmpty()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:15:08 BOT" name="setUp" finished-at="2026-05-29T12:15:23 BOT" duration-ms="15116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC20_FieldValidationTest.tc20_20_emailAcceptsValidFormat()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc20_20_emailAcceptsValidFormat()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:15:23 BOT" name="tc20_20_emailAcceptsValidFormat" description="Email field: accepts valid email format" finished-at="2026-05-29T12:15:30 BOT" duration-ms="6913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc20_20_emailAcceptsValidFormat -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:15:30 BOT" name="tearDown" finished-at="2026-05-29T12:15:31 BOT" duration-ms="499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc20_20_emailAcceptsValidFormat status=SUCCESS method=TC20_FieldValidationTest.tc20_20_emailAcceptsValidFormat()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:15:31 BOT" name="setUp" finished-at="2026-05-29T12:15:50 BOT" duration-ms="19130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC20_FieldValidationTest.tc20_21_emailFieldType()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc20_21_emailFieldType()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:15:50 BOT" name="tc20_21_emailFieldType" description="Email field: type attribute is email" finished-at="2026-05-29T12:15:57 BOT" duration-ms="6864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc20_21_emailFieldType -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:15:57 BOT" name="tearDown" finished-at="2026-05-29T12:15:57 BOT" duration-ms="396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc20_21_emailFieldType status=SUCCESS method=TC20_FieldValidationTest.tc20_21_emailFieldType()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:15:57 BOT" name="setUp" finished-at="2026-05-29T12:16:20 BOT" duration-ms="22572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC20_FieldValidationTest.tc20_22_emailAcceptsEmpty()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc20_22_emailAcceptsEmpty()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:16:20 BOT" name="tc20_22_emailAcceptsEmpty" description="Email field: accepts empty value" finished-at="2026-05-29T12:16:27 BOT" duration-ms="6830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc20_22_emailAcceptsEmpty -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:16:27 BOT" name="tearDown" finished-at="2026-05-29T12:16:27 BOT" duration-ms="541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc20_22_emailAcceptsEmpty status=SUCCESS method=TC20_FieldValidationTest.tc20_22_emailAcceptsEmpty()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:16:27 BOT" name="setUp" finished-at="2026-05-29T12:16:44 BOT" duration-ms="17090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC20_FieldValidationTest.tc20_23_quoteIdAlphanumeric()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc20_23_quoteIdAlphanumeric()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:16:44 BOT" name="tc20_23_quoteIdAlphanumeric" description="Quote Number field: accepts alphanumeric" finished-at="2026-05-29T12:16:49 BOT" duration-ms="4524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc20_23_quoteIdAlphanumeric -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:16:49 BOT" name="tearDown" finished-at="2026-05-29T12:16:49 BOT" duration-ms="615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc20_23_quoteIdAlphanumeric status=SUCCESS method=TC20_FieldValidationTest.tc20_23_quoteIdAlphanumeric()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:16:49 BOT" name="setUp" finished-at="2026-05-29T12:17:08 BOT" duration-ms="18353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC20_FieldValidationTest.tc20_24_quoteIdAcceptsEmpty()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc20_24_quoteIdAcceptsEmpty()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:17:08 BOT" name="tc20_24_quoteIdAcceptsEmpty" description="Quote Number field: accepts empty value" finished-at="2026-05-29T12:17:12 BOT" duration-ms="4672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc20_24_quoteIdAcceptsEmpty -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3]" started-at="2026-05-29T12:17:12 BOT" name="tearDown" finished-at="2026-05-29T12:17:13 BOT" duration-ms="542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc20_24_quoteIdAcceptsEmpty status=SUCCESS method=TC20_FieldValidationTest.tc20_24_quoteIdAcceptsEmpty()[pri:0, instance:tests.TC20_FieldValidationTest@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC20_FieldValidationTest -->
+      <class name="tests.TC17_SelectRecordTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC17_SelectRecordTest@41a0aa7d]" started-at="2026-05-29T12:05:06 BOT" name="setUp" finished-at="2026-05-29T12:05:25 BOT" duration-ms="18889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC17_SelectRecordTest.tc17_selectRecord()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc17_selectRecord()[pri:0, instance:tests.TC17_SelectRecordTest@41a0aa7d]" started-at="2026-05-29T12:05:25 BOT" name="tc17_selectRecord" finished-at="2026-05-29T12:05:42 BOT" duration-ms="17518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc17_selectRecord -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC17_SelectRecordTest@41a0aa7d]" started-at="2026-05-29T12:05:42 BOT" name="tearDown" finished-at="2026-05-29T12:05:43 BOT" duration-ms="588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc17_selectRecord status=SUCCESS method=TC17_SelectRecordTest.tc17_selectRecord()[pri:0, instance:tests.TC17_SelectRecordTest@41a0aa7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC17_SelectRecordTest -->
+      <class name="tests.TC11_SearchByEmailTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC11_SearchByEmailTest@1e0b4072]" started-at="2026-05-29T12:02:25 BOT" name="setUp" finished-at="2026-05-29T12:02:55 BOT" duration-ms="29623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC11_SearchByEmailTest.tc11_searchByEmail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc11_searchByEmail()[pri:0, instance:tests.TC11_SearchByEmailTest@1e0b4072]" started-at="2026-05-29T12:02:55 BOT" name="tc11_searchByEmail" finished-at="2026-05-29T12:03:02 BOT" duration-ms="6883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc11_searchByEmail -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC11_SearchByEmailTest@1e0b4072]" started-at="2026-05-29T12:03:02 BOT" name="tearDown" finished-at="2026-05-29T12:03:02 BOT" duration-ms="356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc11_searchByEmail status=SUCCESS method=TC11_SearchByEmailTest.tc11_searchByEmail()[pri:0, instance:tests.TC11_SearchByEmailTest@1e0b4072] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC11_SearchByEmailTest -->
+      <class name="tests.TC16_ResultsTableTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC16_ResultsTableTest@e350b40]" started-at="2026-05-29T12:04:39 BOT" name="setUp" finished-at="2026-05-29T12:05:00 BOT" duration-ms="21054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC16_ResultsTableTest.tc16_resultsTable()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc16_resultsTable()[pri:0, instance:tests.TC16_ResultsTableTest@e350b40]" started-at="2026-05-29T12:05:00 BOT" name="tc16_resultsTable" finished-at="2026-05-29T12:05:05 BOT" duration-ms="5165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc16_resultsTable -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC16_ResultsTableTest@e350b40]" started-at="2026-05-29T12:05:05 BOT" name="tearDown" finished-at="2026-05-29T12:05:06 BOT" duration-ms="388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc16_resultsTable status=SUCCESS method=TC16_ResultsTableTest.tc16_resultsTable()[pri:0, instance:tests.TC16_ResultsTableTest@e350b40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC16_ResultsTableTest -->
+      <class name="tests.TC07_SearchByOrderNoTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC07_SearchByOrderNoTest@65c7a252]" started-at="2026-05-29T12:01:02 BOT" name="setUp" finished-at="2026-05-29T12:01:04 BOT" duration-ms="2222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC07_SearchByOrderNoTest.tc07_searchByOrderNo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc07_searchByOrderNo()[pri:0, instance:tests.TC07_SearchByOrderNoTest@65c7a252]" started-at="2026-05-29T12:01:04 BOT" name="tc07_searchByOrderNo" finished-at="2026-05-29T12:01:14 BOT" duration-ms="10097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc07_searchByOrderNo -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC07_SearchByOrderNoTest@65c7a252]" started-at="2026-05-29T12:01:14 BOT" name="tearDown" finished-at="2026-05-29T12:01:15 BOT" duration-ms="473" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc07_searchByOrderNo status=SUCCESS method=TC07_SearchByOrderNoTest.tc07_searchByOrderNo()[pri:0, instance:tests.TC07_SearchByOrderNoTest@65c7a252] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC07_SearchByOrderNoTest -->
+      <class name="tests.TC08_SearchByServiceNoTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC08_SearchByServiceNoTest@4d154ccd]" started-at="2026-05-29T12:01:15 BOT" name="setUp" finished-at="2026-05-29T12:01:29 BOT" duration-ms="14672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC08_SearchByServiceNoTest.tc08_searchByServiceNo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc08_searchByServiceNo()[pri:0, instance:tests.TC08_SearchByServiceNoTest@4d154ccd]" started-at="2026-05-29T12:01:29 BOT" name="tc08_searchByServiceNo" finished-at="2026-05-29T12:01:34 BOT" duration-ms="4723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc08_searchByServiceNo -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC08_SearchByServiceNoTest@4d154ccd]" started-at="2026-05-29T12:01:34 BOT" name="tearDown" finished-at="2026-05-29T12:01:35 BOT" duration-ms="528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc08_searchByServiceNo status=SUCCESS method=TC08_SearchByServiceNoTest.tc08_searchByServiceNo()[pri:0, instance:tests.TC08_SearchByServiceNoTest@4d154ccd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC08_SearchByServiceNoTest -->
+      <class name="tests.TC18_NoRecordsFoundTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.TC18_NoRecordsFoundTest@2794eab6]" started-at="2026-05-29T12:05:43 BOT" name="setUp" finished-at="2026-05-29T12:06:02 BOT" duration-ms="19592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC18_NoRecordsFoundTest.tc18_noRecordsFound()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc18_noRecordsFound()[pri:0, instance:tests.TC18_NoRecordsFoundTest@2794eab6]" started-at="2026-05-29T12:06:02 BOT" name="tc18_noRecordsFound" finished-at="2026-05-29T12:06:11 BOT" duration-ms="8842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc18_noRecordsFound -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC18_NoRecordsFoundTest@2794eab6]" started-at="2026-05-29T12:06:11 BOT" name="tearDown" finished-at="2026-05-29T12:06:12 BOT" duration-ms="381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc18_noRecordsFound status=SUCCESS method=TC18_NoRecordsFoundTest.tc18_noRecordsFound()[pri:0, instance:tests.TC18_NoRecordsFoundTest@2794eab6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC18_NoRecordsFoundTest -->
+    </test> <!-- MunsterJoinery-Tests -->
+  </suite> <!-- MunsterJoinery-Suite -->
+</testng-results>

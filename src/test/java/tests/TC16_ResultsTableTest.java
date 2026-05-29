@@ -16,6 +16,8 @@ import java.util.List;
  * TC16 – Results / Table
  * Verifies that after a valid search the results table loads with rows
  * and each row contains non-empty data in at least the first column.
+ *
+ * @author Maribel Aiza
  */
 public class TC16_ResultsTableTest extends BaseTest {
 

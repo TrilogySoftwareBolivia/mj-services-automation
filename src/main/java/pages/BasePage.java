@@ -15,6 +15,8 @@ import java.time.Duration;
  * Abstract base class for all Page Objects.
  * Provides shared WebDriver, explicit waits, and common helper methods.
  * Satisfies requirement R1.5.
+ *
+ * @author Maribel Aiza
  */
 public abstract class BasePage {
 

@@ -9,6 +9,8 @@ import java.util.Properties;
  * Environment variables take precedence over file values.
  * Key conversion: lowercase with dots → uppercase with underscores.
  * Example: "login.username" → env var "LOGIN_USERNAME"
+ *
+ * @author Maribel Aiza
  */
 public class ConfigReader {
 

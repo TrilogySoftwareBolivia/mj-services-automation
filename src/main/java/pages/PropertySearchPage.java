@@ -19,6 +19,8 @@ import java.util.List;
  *   contactName, address, fittingNo, spacebarNo,
  *   serviceQueryNoServiceCallOutNo, builderAfterCareId,
  *   contactPhone, contactEmail, quoteId
+ *
+ * @author Maribel Aiza
  */
 public class PropertySearchPage extends BasePage {
 
@@ -272,6 +274,47 @@ public class PropertySearchPage extends BasePage {
         String val = (String) ((JavascriptExecutor) driver)
                 .executeScript("return arguments[0].value;", el);
         return val != null ? val : "";
+    }
+
+    public String getFieldValue(By locator) {
+        WebElement el = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        String val = (String) ((JavascriptExecutor) driver)
+                .executeScript("return arguments[0].value;", el);
+        return val != null ? val : "";
+    }
+
+    public String getFieldMaxLength(By locator) {
+        WebElement el = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        String maxLen = el.getAttribute("maxlength");
+        return maxLen != null ? maxLen : "";
+    }
+
+    public String getFieldType(By locator) {
+        WebElement el = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        String type = el.getAttribute("type");
+        return type != null ? type : "text";
+    }
+
+    public boolean isFieldVisible(By locator) {
+        return isDisplayed(locator);
+    }
+
+    // Expose field locators for validation tests
+    public static By nameFieldLocator()           { return NAME_FIELD; }
+    public static By addressFieldLocator()        { return ADDRESS_FIELD; }
+    public static By fittingNoFieldLocator()      { return FITTING_NO_FIELD; }
+    public static By orderNoFieldLocator()        { return ORDER_NO_FIELD; }
+    public static By serviceNoFieldLocator()      { return SERVICE_NO_FIELD; }
+    public static By builderAfterCareIdLocator()  { return BUILDER_AFTER_CARE_ID_FIELD; }
+    public static By phoneFieldLocator()          { return PHONE_FIELD; }
+    public static By emailFieldLocator()          { return EMAIL_FIELD; }
+    public static By quoteIdFieldLocator()        { return QUOTE_ID_FIELD; }
+
+    /** Sets a field value and returns what the field actually contains after input.
+     *  Used for validation tests to check if the app accepts or rejects the value. */
+    public String setFieldAndGetValue(By locator, String value) {
+        fillField(locator, value);
+        return getFieldValue(locator);
     }
 
     // -------------------------------------------------------------------------

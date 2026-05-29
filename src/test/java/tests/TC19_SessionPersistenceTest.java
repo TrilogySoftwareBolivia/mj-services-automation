@@ -19,6 +19,8 @@ import java.util.List;
  * TC19 – Results / Session Persistence
  * Verifies that the session remains active after navigating between menu items
  * without requiring re-login.
+ *
+ * @author Maribel Aiza
  */
 public class TC19_SessionPersistenceTest extends BaseTest {
 

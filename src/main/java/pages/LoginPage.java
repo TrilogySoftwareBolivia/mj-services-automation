@@ -15,6 +15,8 @@ import utils.ConfigReader;
  * to the account recovery flow.</p>
  *
  * <p>Satisfies requirements R3, R4, R5.</p>
+ *
+ * @author Maribel Aiza
  */
 public class LoginPage extends BasePage {
 

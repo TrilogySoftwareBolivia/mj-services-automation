@@ -8,12 +8,14 @@ import pages.LoginPage;
 import pages.PropertySearchPage;
 import utils.ConfigReader;
 import utils.DriverManager;
-import utils.ReportManager;
+
 
 /**
  * TC04 – Search by Customer/Builder Name
  * Verifies that searching by customer name returns at least one result.
  * Satisfies requirement R6.
+ *
+ * @author Maribel Aiza
  */
 public class TC04_SearchByNameTest extends BaseTest {
 
@@ -37,7 +39,7 @@ public class TC04_SearchByNameTest extends BaseTest {
         Assert.assertTrue(
                 count >= 1,
                 "Expected at least 1 result for name search but found: " + count);
-        ReportManager.logPass("Name search returned " + count + " result(s)");
+        System.out.println("[PASS] " + "Name search returned " + count + " result(s)");
 
         // Verify at least one result row has a non-empty name cell
         // (ag-Grid may render extra virtual/empty rows — we only require at least one populated row)
@@ -51,7 +53,7 @@ public class TC04_SearchByNameTest extends BaseTest {
         }
         Assert.assertTrue(foundNonEmptyRow,
                 "Expected at least one result row with a non-empty name cell");
-        ReportManager.logPass("At least one result row has a non-empty name cell");
+        System.out.println("[PASS] " + "At least one result row has a non-empty name cell");
     }
 
     // -------------------------------------------------------------------------

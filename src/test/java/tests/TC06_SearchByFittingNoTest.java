@@ -7,12 +7,14 @@ import pages.LoginPage;
 import pages.PropertySearchPage;
 import utils.ConfigReader;
 import utils.DriverManager;
-import utils.ReportManager;
+
 
 /**
  * TC06 – Search by Fitting Number
  * Verifies that searching by Fitting_No returns at least one result.
  * Satisfies requirement R8.
+ *
+ * @author Maribel Aiza
  */
 public class TC06_SearchByFittingNoTest extends BaseTest {
 
@@ -30,7 +32,7 @@ public class TC06_SearchByFittingNoTest extends BaseTest {
             searchPage.waitForResults();
         } catch (TimeoutException e) {
             // If no results found, the field may be disabled on this form — pass with warning
-            ReportManager.logPass("TC06: No results for fittingNo '" + fittingNo
+            System.out.println("[PASS] " + "TC06: No results for fittingNo '" + fittingNo
                     + "' — field may be disabled or test data not present in sandbox. Skipping result assertion.");
             return;
         }
@@ -38,7 +40,7 @@ public class TC06_SearchByFittingNoTest extends BaseTest {
         int count = searchPage.getResultCount();
         Assert.assertTrue(count >= 1,
                 "Expected at least 1 result for Fitting_No search but found: " + count);
-        ReportManager.logPass("Fitting_No search returned " + count + " result(s)");
+        System.out.println("[PASS] " + "Fitting_No search returned " + count + " result(s)");
     }
 
     private void loginWithValidCredentials() {

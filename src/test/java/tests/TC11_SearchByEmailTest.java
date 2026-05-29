@@ -7,11 +7,13 @@ import pages.LoginPage;
 import pages.PropertySearchPage;
 import utils.ConfigReader;
 import utils.DriverManager;
-import utils.ReportManager;
+
 
 /**
  * TC11 – Find a Property / Email Of Contact
  * Verifies that searching by email returns at least one result.
+ *
+ * @author Maribel Aiza
  */
 public class TC11_SearchByEmailTest extends BaseTest {
 
@@ -23,10 +25,10 @@ public class TC11_SearchByEmailTest extends BaseTest {
 
         PropertySearchPage searchPage = new PropertySearchPage(DriverManager.getDriver());
         searchPage.openDialog();
-        ReportManager.logPass("Find a Property dialog opened");
+        System.out.println("[PASS] " + "Find a Property dialog opened");
 
         searchPage.searchByEmail(email);
-        ReportManager.logPass("Searched by Email: " + email);
+        System.out.println("[PASS] " + "Searched by Email: " + email);
 
         try {
             searchPage.waitForResults();
@@ -37,7 +39,7 @@ public class TC11_SearchByEmailTest extends BaseTest {
         Assert.assertTrue(
                 searchPage.getResultCount() >= 1,
                 "Expected at least 1 result for Email search but found: " + searchPage.getResultCount());
-        ReportManager.logPass("Email search returned " + searchPage.getResultCount() + " result(s)");
+        System.out.println("[PASS] " + "Email search returned " + searchPage.getResultCount() + " result(s)");
     }
 
     private void loginWithValidCredentials() {

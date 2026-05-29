@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 /**
  * Page Object for the Dashboard screen.
  * Satisfies requirement R3.
+ *
+ * @author Maribel Aiza
  */
 public class DashboardPage extends BasePage {
 

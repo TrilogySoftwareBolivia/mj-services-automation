@@ -20,6 +20,8 @@ import java.util.List;
 /**
  * TC17 – Results / Select Record
  * Verifies that a record can be selected after a search.
+ *
+ * @author Maribel Aiza
  */
 public class TC17_SelectRecordTest extends BaseTest {
 

@@ -3,11 +3,8 @@ package tests;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
 import utils.ConfigReader;
 import utils.DriverManager;
-import utils.ReportListener;
-import utils.ReportManager;
 
 import java.lang.reflect.Method;
 
@@ -16,12 +13,12 @@ import java.lang.reflect.Method;
  *
  * Responsibilities:
  *  - Initialises a ChromeDriver instance before each test method (R2.4, R2.5)
- *  - Creates an ExtentReports test node named after the test method
  *  - Navigates to the configured base URL
- *  - On failure, logs a screenshot-embedded fail entry in the report (R10)
+ *  - On failure, logs a fail entry to stdout (R10)
  *  - Always quits the driver after each test method; exceptions propagate
+ *
+ * @author Maribel Aiza
  */
-@Listeners(ReportListener.class)
 public class BaseTest {
 
     /**
@@ -33,7 +30,7 @@ public class BaseTest {
     @BeforeMethod(alwaysRun = true)
     public void setUp(Method method) {
         DriverManager.initDriver();
-        ReportManager.createTest(method.getName());
+        System.out.println("[TEST START] " + method.getName());
         DriverManager.getDriver().get(ConfigReader.get("base.url"));
     }
 
@@ -47,7 +44,7 @@ public class BaseTest {
     @AfterMethod(alwaysRun = true)
     public void tearDown(ITestResult result) {
         if (result.getStatus() == ITestResult.FAILURE) {
-            ReportManager.logFail(result.getThrowable().getMessage(), DriverManager.getDriver());
+            System.out.println("[TEST FAIL] " + result.getThrowable().getMessage());
         }
         DriverManager.quitDriver();
     }

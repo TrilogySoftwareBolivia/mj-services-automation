@@ -5,12 +5,14 @@ import org.testng.annotations.Test;
 import pages.LoginPage;
 import pages.RecoveryPage;
 import utils.DriverManager;
-import utils.ReportManager;
+
 
 /**
  * TC03 – Forgotten Account
  * Verifies that clicking the "Forgotten" account link opens the account recovery form.
  * Satisfies requirement R5.
+ *
+ * @author Maribel Aiza
  */
 public class TC03_ForgottenAccountTest extends BaseTest {
 
@@ -24,17 +26,17 @@ public class TC03_ForgottenAccountTest extends BaseTest {
         Assert.assertTrue(
                 recoveryPage.isRecoveryFormDisplayed(),
                 "Recovery form should be displayed after clicking Forgotten Account link");
-        ReportManager.logPass("Recovery form is displayed after clicking Forgotten Account link");
+        System.out.println("[PASS] " + "Recovery form is displayed after clicking Forgotten Account link");
 
         Assert.assertTrue(
                 recoveryPage.isInputFieldVisible(),
                 "Recovery input field should be visible");
-        ReportManager.logPass("Recovery input field is visible");
+        System.out.println("[PASS] " + "Recovery input field is visible");
 
         String headingText = recoveryPage.getHeadingText();
         Assert.assertFalse(
                 headingText.isEmpty(),
                 "Recovery form heading text should not be empty");
-        ReportManager.logPass("Recovery form heading text is not empty: " + headingText);
+        System.out.println("[PASS] " + "Recovery form heading text is not empty: " + headingText);
     }
 }

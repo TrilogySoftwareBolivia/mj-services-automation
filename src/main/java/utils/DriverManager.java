@@ -5,6 +5,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+/**
+ * Manages ChromeDriver lifecycle per thread.
+ *
+ * @author Maribel Aiza
+ */
 public class DriverManager {
 
     private static final ThreadLocal<WebDriver> driverThread = new ThreadLocal<>();

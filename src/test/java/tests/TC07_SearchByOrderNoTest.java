@@ -7,12 +7,14 @@ import pages.LoginPage;
 import pages.PropertySearchPage;
 import utils.ConfigReader;
 import utils.DriverManager;
-import utils.ReportManager;
+
 
 /**
  * TC07 – Search by Order Number
  * Verifies that searching by Order_No returns at least one result.
  * Satisfies requirement R9.
+ *
+ * @author Maribel Aiza
  */
 public class TC07_SearchByOrderNoTest extends BaseTest {
 
@@ -30,7 +32,7 @@ public class TC07_SearchByOrderNoTest extends BaseTest {
             searchPage.waitForResults();
         } catch (TimeoutException e) {
             // No results — test data may not exist in sandbox
-            ReportManager.logPass("TC07: No results for orderNo '" + orderNo
+            System.out.println("[PASS] " + "TC07: No results for orderNo '" + orderNo
                     + "' — test data may not be present in sandbox. Skipping result assertion.");
             return;
         }
@@ -38,7 +40,7 @@ public class TC07_SearchByOrderNoTest extends BaseTest {
         int count = searchPage.getResultCount();
         Assert.assertTrue(count >= 1,
                 "Expected at least 1 result for Order_No search but found: " + count);
-        ReportManager.logPass("Order_No search returned " + count + " result(s)");
+        System.out.println("[PASS] " + "Order_No search returned " + count + " result(s)");
     }
 
     private void loginWithValidCredentials() {

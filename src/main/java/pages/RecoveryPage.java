@@ -13,6 +13,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
  * formcontrolname="email", formcontrolname="phoneNumber", formcontrolname="department".
  *
  * Satisfies requirement R5.
+ *
+ * @author Maribel Aiza
  */
 public class RecoveryPage extends BasePage {
 

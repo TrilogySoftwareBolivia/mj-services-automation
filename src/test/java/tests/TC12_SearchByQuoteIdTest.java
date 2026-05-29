@@ -7,11 +7,13 @@ import pages.LoginPage;
 import pages.PropertySearchPage;
 import utils.ConfigReader;
 import utils.DriverManager;
-import utils.ReportManager;
+
 
 /**
  * TC12 – Find a Property / Quote Number
  * Verifies that searching by quote number returns at least one result.
+ *
+ * @author Maribel Aiza
  */
 public class TC12_SearchByQuoteIdTest extends BaseTest {
 
@@ -23,10 +25,10 @@ public class TC12_SearchByQuoteIdTest extends BaseTest {
 
         PropertySearchPage searchPage = new PropertySearchPage(DriverManager.getDriver());
         searchPage.openDialog();
-        ReportManager.logPass("Find a Property dialog opened");
+        System.out.println("[PASS] " + "Find a Property dialog opened");
 
         searchPage.searchByQuoteId(quoteId);
-        ReportManager.logPass("Searched by Quote Number: " + quoteId);
+        System.out.println("[PASS] " + "Searched by Quote Number: " + quoteId);
 
         try {
             searchPage.waitForResults();
@@ -37,7 +39,7 @@ public class TC12_SearchByQuoteIdTest extends BaseTest {
         Assert.assertTrue(
                 searchPage.getResultCount() >= 1,
                 "Expected at least 1 result for Quote Number search but found: " + searchPage.getResultCount());
-        ReportManager.logPass("Quote Number search returned " + searchPage.getResultCount() + " result(s)");
+        System.out.println("[PASS] " + "Quote Number search returned " + searchPage.getResultCount() + " result(s)");
     }
 
     private void loginWithValidCredentials() {

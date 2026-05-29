@@ -7,11 +7,13 @@ import pages.LoginPage;
 import pages.PropertySearchPage;
 import utils.ConfigReader;
 import utils.DriverManager;
-import utils.ReportManager;
+
 
 /**
  * TC08 – Find a Property / Service No.
  * Verifies that searching by service number returns at least one result.
+ *
+ * @author Maribel Aiza
  */
 public class TC08_SearchByServiceNoTest extends BaseTest {
 
@@ -23,10 +25,10 @@ public class TC08_SearchByServiceNoTest extends BaseTest {
 
         PropertySearchPage searchPage = new PropertySearchPage(DriverManager.getDriver());
         searchPage.openDialog();
-        ReportManager.logPass("Find a Property dialog opened");
+        System.out.println("[PASS] " + "Find a Property dialog opened");
 
         searchPage.searchByServiceNo(serviceNo);
-        ReportManager.logPass("Searched by Service No: " + serviceNo);
+        System.out.println("[PASS] " + "Searched by Service No: " + serviceNo);
 
         try {
             searchPage.waitForResults();
@@ -37,7 +39,7 @@ public class TC08_SearchByServiceNoTest extends BaseTest {
         Assert.assertTrue(
                 searchPage.getResultCount() >= 1,
                 "Expected at least 1 result for Service No search but found: " + searchPage.getResultCount());
-        ReportManager.logPass("Service No search returned " + searchPage.getResultCount() + " result(s)");
+        System.out.println("[PASS] " + "Service No search returned " + searchPage.getResultCount() + " result(s)");
     }
 
     private void loginWithValidCredentials() {

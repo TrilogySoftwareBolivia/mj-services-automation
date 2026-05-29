@@ -15,6 +15,8 @@ import utils.ReportManager;
  * TC18 – Results / No records found
  * Verifies that searching with a non-existent criterion shows a "no records" message
  * or returns zero visible result rows.
+ *
+ * @author Maribel Aiza
  */
 public class TC18_NoRecordsFoundTest extends BaseTest {
 

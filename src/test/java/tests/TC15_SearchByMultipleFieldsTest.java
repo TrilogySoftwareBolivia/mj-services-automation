@@ -7,11 +7,13 @@ import pages.LoginPage;
 import pages.PropertySearchPage;
 import utils.ConfigReader;
 import utils.DriverManager;
-import utils.ReportManager;
+
 
 /**
  * TC15 – Find a Property / Search by more than two fields
  * Verifies that searching by Name + Post Code + Fitting No. together returns at least one result.
+ *
+ * @author Maribel Aiza
  */
 public class TC15_SearchByMultipleFieldsTest extends BaseTest {
 
@@ -25,10 +27,10 @@ public class TC15_SearchByMultipleFieldsTest extends BaseTest {
 
         PropertySearchPage searchPage = new PropertySearchPage(DriverManager.getDriver());
         searchPage.openDialog();
-        ReportManager.logPass("Find a Property dialog opened");
+        System.out.println("[PASS] " + "Find a Property dialog opened");
 
         searchPage.searchByMultipleFields(name, postCode, fittingNo);
-        ReportManager.logPass("Searched by Name: " + name
+        System.out.println("[PASS] " + "Searched by Name: " + name
                 + ", Post Code: " + postCode
                 + ", Fitting No: " + fittingNo);
 
@@ -41,7 +43,7 @@ public class TC15_SearchByMultipleFieldsTest extends BaseTest {
         Assert.assertTrue(
                 searchPage.getResultCount() >= 1,
                 "Expected at least 1 result for multi-field search but found: " + searchPage.getResultCount());
-        ReportManager.logPass("Multi-field search returned " + searchPage.getResultCount() + " result(s)");
+        System.out.println("[PASS] " + "Multi-field search returned " + searchPage.getResultCount() + " result(s)");
     }
 
     private void loginWithValidCredentials() {

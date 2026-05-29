@@ -6,12 +6,14 @@ import pages.DashboardPage;
 import pages.LoginPage;
 import utils.ConfigReader;
 import utils.DriverManager;
-import utils.ReportManager;
+
 
 /**
  * TC01 – Valid Login
  * Verifies that a user with valid credentials can log in and land on the dashboard.
  * Satisfies requirement R3.
+ *
+ * @author Maribel Aiza
  */
 public class TC01_LoginValidTest extends BaseTest {
 
@@ -32,18 +34,18 @@ public class TC01_LoginValidTest extends BaseTest {
         Assert.assertTrue(
                 currentUrl.matches(".*#/dashboard.*") || currentUrl.matches(".*#/property.*"),
                 "Expected URL to contain #/dashboard or #/property but was: " + currentUrl);
-        ReportManager.logPass("URL after valid login is correct: " + currentUrl);
+        System.out.println("[PASS] " + "URL after valid login is correct: " + currentUrl);
 
         DashboardPage dashboardPage = new DashboardPage(DriverManager.getDriver());
 
         Assert.assertTrue(
                 dashboardPage.getPageTitle().contains(dashboardTitle),
                 "Page title does not contain '" + dashboardTitle + "': " + dashboardPage.getPageTitle());
-        ReportManager.logPass("Page title contains expected value: " + dashboardPage.getPageTitle());
+        System.out.println("[PASS] " + "Page title contains expected value: " + dashboardPage.getPageTitle());
 
         Assert.assertTrue(
                 dashboardPage.isDashboardWelcomeVisible(),
                 "Dashboard welcome element is not visible after valid login");
-        ReportManager.logPass("Dashboard welcome element is visible");
+        System.out.println("[PASS] " + "Dashboard welcome element is visible");
     }
 }

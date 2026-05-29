@@ -24,6 +24,7 @@
             <class name="tests.TC17_SelectRecordTest"/>
             <class name="tests.TC18_NoRecordsFoundTest"/>
             <class name="tests.TC19_SessionPersistenceTest"/>
+            <class name="tests.TC20_FieldValidationTest"/>
         </classes>
     </test>
 
