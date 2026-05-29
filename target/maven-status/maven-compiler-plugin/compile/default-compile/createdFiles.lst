@@ -1,9 +1,0 @@
-pages\BasePage.class
-utils\ReportManager.class
-pages\LoginPage.class
-pages\PropertySearchPage.class
-pages\DashboardPage.class
-pages\RecoveryPage.class
-utils\ConfigReader.class
-utils\DriverManager.class
-utils\ReportListener.class
